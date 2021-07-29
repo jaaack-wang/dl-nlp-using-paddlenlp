@@ -4,7 +4,7 @@
 
 <br>
 
-Learning notes and materials on [paddlenlp](https://github.com/PaddlePaddle/PaddleNLP), taken during and after the [Dee Learning Based Natural Language Processing](https://aistudio.baidu.com/aistudio/course/introduce/24177) (The course is over, but you can still sign up for the course materials). The [paddlenlp](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp) folder stores the course materials as well as my notes taken during the course (in Chinese), but most of the notebooks regarding model trainning need to be run on [Paddle AI Studio](https://aistudio.baidu.com/aistudio/index) platform for free GPU resources. The [paddlenlp_updated_notes_English](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp_updated_notes_English/WordEmbedding) folder is a more systematic and beginner-friendly collection of notes that I will update regularly in English and can be run directly on [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index). 
+Learning notes and materials on [paddlenlp](https://github.com/PaddlePaddle/PaddleNLP), taken during and after the [Deep Learning Based Natural Language Processing](https://aistudio.baidu.com/aistudio/course/introduce/24177) (The course is over, but you can still sign up for the course materials). The [paddlenlp](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp) folder stores the course materials as well as my notes taken during the course (in Chinese), but most of the notebooks regarding model trainning need to be run on [Paddle AI Studio](https://aistudio.baidu.com/aistudio/index) platform for free GPU resources. The [paddlenlp_updated_notes_English](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp_updated_notes_English/WordEmbedding) folder is a more systematic and beginner-friendly collection of notes that I will update regularly in English and can be run directly on [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index). 
 
 
 ## 目录 Table of contents
@@ -16,6 +16,8 @@ Learning notes and materials on [paddlenlp](https://github.com/PaddlePaddle/Padd
   - [loading pre-trained word embedding in paddlenp.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/WordEmbedding/1-loading%20pre-trained%20word%20embedding%20in%20paddlenp.ipynb)
   - [calculating text cosine similarity in paddlenlp.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/WordEmbedding/2-calculating%20text%20cosine%20similarity%20in%20paddlenlp.ipynb)
   - [embedding visualization using paddlepaddle tool.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/WordEmbedding/3-embedding%20visualization%20using%20paddlepaddle%20tool.ipynb)
+  - [embedding visualization using tensorflow tool.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/WordEmbedding/3.2-embedding%20visualization%20using%20tensorflow%20tool.ipynb)
+  - [training word embeddings using skip-gram with negative sampling in paddle.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/WordEmbedding/4-training%20word%20embeddings%20using%20skip-gram%20with%20negative%20sampling%20in%20paddle.ipynb)
 
 <br>
 
