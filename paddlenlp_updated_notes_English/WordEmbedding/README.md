@@ -45,3 +45,30 @@
   - 3.1 With paddlepaddle and paddlenlp installed
   - 3.2 Without paddlepaddle and paddlenlp installed
 - 4. References
+
+# 3.2-embedding visualization using tensorflow tool.ipynb
+
+## Table of Contents
+- 1. General use of `tensorboard` for embedding visualization
+- 2. Another example: Visualizing word embeddings
+- 3. References
+
+# 4-training word embeddings using skip-gram with negative sampling in paddle.ipynb
+
+## Table of Contents
+# Table of Contents
+
+- 1. Word representation and word embedding]
+	- 1.1 Word representation
+	- 1.2 General model to learn word embeddings
+	- 1.3 Skip-gram and negative sampling
+- 2. Word embedding training using skip-gram with negative sampling algorithms
+	- 2.1 General procedure
+	- 2.2 Data loading and preprocessing
+	- 2.3 Model configuration
+	- 2.4 Training
+- 3. Things to do next
+	- 3.1 Save the trained embeddings
+	- 3.2 Visualization
+	- 3.3 Word analogy test
+- 4. References
