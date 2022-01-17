@@ -21,7 +21,7 @@ Learning notes and materials on [paddlenlp](https://github.com/PaddlePaddle/Padd
 
 <br>
 
-- 2-文本语义相似度计算 Text similarity 
+- 2-文本语义相似度计算 [Text similarity](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp_updated_notes_English/Text%20Similarity)
 - 3-NER 命名实体识别 Named Entity Recognition
 - 4-情感分析 Sentiment analysis
 - 5-实体关系抽取 Relation extraction
