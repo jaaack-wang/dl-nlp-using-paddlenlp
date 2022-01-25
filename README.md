@@ -1,6 +1,6 @@
 # dl-nlp-using-paddlenlp
 
-[paddlenlp](https://github.com/PaddlePaddle/PaddleNLP)打卡笔记，待整理。所有的学习材料可在[基于深度学习的自然语言处理](https://aistudio.baidu.com/aistudio/course/introduce/24177)课程上找到（已结课），只需在[Paddle AI Studio](https://aistudio.baidu.com/aistudio/index)注册一个账号即可。[paddlenlp](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp)文件夹内储存的是课程学习笔记和项目练习，但涉及到模型训练的部分，绝大大多数需要在GPU上运行，所以推荐直接在[Paddle AI Studio](https://aistudio.baidu.com/aistudio/index)平台上注册课程、直接运行。[paddlenlp_updated_notes_English](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp_updated_notes_English/WordEmbedding)文件夹是我会陆续更新的新的、更为系统化的学习心得，并且也更容易看懂，可以直接在 [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index)上运行。
+[paddlenlp](https://github.com/PaddlePaddle/PaddleNLP)打卡笔记，待整理。所有的学习材料可在[基于深度学习的自然语言处理](https://aistudio.baidu.com/aistudio/course/introduce/24177)课程上找到（已结课），只需在[Paddle AI Studio](https://aistudio.baidu.com/aistudio/index)注册一个账号即可。[paddlenlp](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp)文件夹内储存的是课程学习笔记和项目练习，但涉及到模型训练的部分，绝大大多数需要在GPU上运行，所以推荐直接在[Paddle AI Studio](https://aistudio.baidu.com/aistudio/index)平台上注册课程、直接运行。[paddlenlp_updated_notes_English](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp_updated_notes_English/WordEmbedding)文件夹是我会陆续更新的新的、更为系统化的学习心得，并且也更容易看懂，可以直接在 [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index)或者你的电脑上运行。两个版本的笔记是不一样的。英语的笔记不是中文笔记的直接翻译。
 
 <br>
 
@@ -8,7 +8,7 @@ Learning notes and materials on [paddlenlp](https://github.com/PaddlePaddle/Padd
 
 
 ## 目录 Table of contents
-(The links are for the updated English notes stored in [paddlenlp_updated_notes_English](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp_updated_notes_English/WordEmbedding) folder that have been updated. For the complete notes and learning materials, please refer to the [paddlenlp](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp) folder which is in Chinese.)
+(The links are for the updated English notes stored in [paddlenlp_updated_notes_English](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp_updated_notes_English/WordEmbedding) folder that have been updated.)
 
 <br>
 
