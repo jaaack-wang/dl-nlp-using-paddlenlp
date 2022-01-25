@@ -33,8 +33,8 @@ def load_dataset(fpath, num_row_to_skip=0):
         return [list(read(fp)) for fp in fpath]
     
     raise TypeError("Input fpath must be a (list) of valid filepath(es)")
-    
-            
+
+
 def gather_text(dataset, end_col=2):
     out = []
     for data in dataset:
@@ -189,14 +189,15 @@ class TextVectorizer:
         self._create_vocab_dicts(unique_tks)
         
     def __call__(self, text, vectorized=False, dtype="int64"):
-        try:
-            if not self.vocab_to_idx:
+        if not self.vocab_to_idx:
+            try:
                 self.load_vocab_from_json()
-            return self.text_encoder(text)
-        except:
-            raise ValueError("No vocab is built or loaded.")
-
+            except:
+                raise ValueError("No vocab is built or loaded.")
             
+        return self.text_encoder(text)
+
+
 def encode_dataset(dataset, encoder):
     
     for text_a, text_b, label in dataset:
@@ -204,8 +205,8 @@ def encode_dataset(dataset, encoder):
         text_b = encoder(text_b)
         
         yield [text_a, text_b, label]
-        
-        
+
+
 def batch_creater(lst, 
                   batch_size, 
                   reminder_threshold=0):
@@ -270,10 +271,16 @@ def build_batches(dataset,
         text_a, text_b, label = [], [], []
         
         if include_seq_len:
-            text_a_len = [len(bt[0]) for bt in batch]
-            text_a_len = np.asarray(text_a_len, dtype=dtype)
+            if max_seq_len:
+                text_a_len = [len(bt[0]) if len(bt[0]) < max_seq_len 
+                              else max_seq_len for bt in batch]
+                text_b_len = [len(bt[1]) if len(bt[1]) < max_seq_len 
+                              else max_seq_len for bt in batch]
+            else:
+                text_a_len = [len(bt[0]) for bt in batch]
+                text_b_len = [len(bt[1]) for bt in batch]
             
-            text_b_len = [len(bt[1]) for bt in batch]
+            text_a_len = np.asarray(text_a_len, dtype=dtype)
             text_b_len = np.asarray(text_b_len, dtype=dtype)
             
         
