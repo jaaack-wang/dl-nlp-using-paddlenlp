@@ -4,7 +4,7 @@
 
 <br>
 
-Learning notes and materials on [paddlenlp](https://github.com/PaddlePaddle/PaddleNLP), taken during and after the [Deep Learning Based Natural Language Processing](https://aistudio.baidu.com/aistudio/course/introduce/24177) (The course is over, but you can still sign up for the course materials). The [paddlenlp](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp) folder stores the course materials as well as my notes taken during the course (in Chinese), but most of the notebooks regarding model trainning need to be run on [Paddle AI Studio](https://aistudio.baidu.com/aistudio/index) platform for free GPU resources. The [paddlenlp_updated_notes_English](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp_updated_notes_English/WordEmbedding) folder is a more systematic and beginner-friendly collection of notes that I will update regularly in English and can be run directly on [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index). 
+Learning notes and materials on [paddlenlp](https://github.com/PaddlePaddle/PaddleNLP), taken during and after the [Deep Learning Based Natural Language Processing](https://aistudio.baidu.com/aistudio/course/introduce/24177) (The course is over, but you can still sign up for the course materials). The [paddlenlp](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp) folder stores the course materials as well as my notes taken during the course (in Chinese), but most of the notebooks regarding model trainning need to be run on [Paddle AI Studio](https://aistudio.baidu.com/aistudio/index) platform for free GPU resources. The [paddlenlp_updated_notes_English](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp_updated_notes_English/WordEmbedding) folder is a more systematic and beginner-friendly collection of notes that I will update regularly in English and can be run directly on [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index) or your own computers. Therefore, the contents of the two folders are very different. The English notes are not the translations to the Chinese ones. 
 
 
 ## 目录 Table of contents
@@ -22,8 +22,27 @@ Learning notes and materials on [paddlenlp](https://github.com/PaddlePaddle/Padd
 <br>
 
 - 2-文本语义相似度计算 [Text similarity](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp_updated_notes_English/Text%20Similarity)
+	- [Quick starts with paddle.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/Text%20Similarity/0%20-%20Quick_starts_with_paddle.ipynb)
+	- [Get data.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/Text%20Similarity/1%20-%20get_data.ipynb)
+	- [preprocess data.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/Text%20Similarity/2%20-%20preprocess_data.ipynb)
+	- [wrapped up data preprocessor.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/Text%20Similarity/2.1%20-%20wrapped_up_data_preprocessor.ipynb)
+	- [preprocess data using paddle.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/Text%20Similarity/2.2%20-%20preprocess_data_using_paddle.ipynb)
+
+<br>
+
 - 3-NER 命名实体识别 Named Entity Recognition
-- 4-情感分析 Sentiment analysis
+
+<br>
+
+- 4-情感分析 [Sentiment analysis](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/tree/main/paddlenlp_updated_notes_English/Sentiment_Analysis)
+	- [Quick starts with paddle.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/Sentiment_Analysis/0%20-%20very_quick_starts_with_paddle.ipynb)
+	- [Get data.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/Sentiment_Analysis/1%20-%20get_data.ipynb)
+	- [preprocess data.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/Sentiment_Analysis/2%20-%20preprocess_data.ipynb)
+	- [wrapped up data preprocessor.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/Sentiment_Analysis/2.1%20-%20wrapped_up_data_preprocessor.ipynb)
+	- [preprocess data using paddle.ipynb](https://github.com/jaaack-wang/dl-nlp-using-paddlenlp/blob/main/paddlenlp_updated_notes_English/Sentiment_Analysis/2.2%20-%20preprocess_data_using_paddle.ipynb)
+
+<br>
+
 - 5-实体关系抽取 Relation extraction
 - 6-问答系统/机器阅读理解/段落检索 Q&A system/Machine Reading Comprehension/passage retrieval 
 - 7-结构化数据问答 Structured Q&A system
